@@ -12,14 +12,14 @@ ul.octodex {
 .ocotcat {
 border: 1px solid #dadae3;	
 overflow: hidden;
-margin: 5px;
+margin: 2px;
 }
 .octocat img {
 	width: 250px;
 	height: 250px;
 	float: left;
 	border: 2px solid #dadae3;
-	margin: 5px;
+	margin: 2px;
 }
 .authors a img {
 	float: right;
@@ -29,9 +29,10 @@ margin: 5px;
 	margin: 2px;
 }
 li.octocat {
-	margin: 10px;
+	margin: 5px;
 	overflow: hidden;
 	float: left;
+	border-bottom: 1px solid #dadae3;
 }
 .image-caption a {
 	text-decoration: none;
@@ -41,7 +42,6 @@ li.octocat {
 }
 .image-caption {
 	border-radius: 50px;
-	border-bottom: 1px solid #dadae3;
 }
 li {
 	text-decoration: none;
@@ -57,7 +57,6 @@ span {
 	font-family: arial;
 	font-weight: bold;
 	font-size: 12px;
-	border-bottom: 1px solid #dadae3;
 }
 .image-number {
 	font-weight: lighter;
