@@ -22,7 +22,7 @@ margin: 5px;
 	margin: 5px;
 }
 .authors a img {
-	/*float: right;*/
+	float: right;
 	height: 20px;
 	width: 20px;
 	border: 2px;
@@ -35,10 +35,13 @@ li.octocat {
 }
 .image-caption a {
 	text-decoration: none;
-	
+	color: black;
+	font-size:12px;
+
 }
 .image-caption {
 	border-radius: 50px;
+	border-bottom: 1px solid #dadae3;
 }
 li {
 	text-decoration: none;
@@ -53,11 +56,17 @@ li {
 span {
 	font-family: arial;
 	font-weight: bold;
+	font-size: 12px;
+	border-bottom: 1px solid #dadae3;
 }
 .image-number {
 	font-weight: lighter;
-	font-size: 12px;
+	font-size: 10px;
 	color: #dadae3;
-
 }
-
+ul.authors {
+	float: right;
+}
+div.image-caption {
+	float: right;
+}
